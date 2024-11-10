@@ -1,0 +1,22 @@
+
+{
+    "login": 
+    {
+          "email" : "patric123@gmail.com",
+          "password" : "patric123"
+      
+    },
+
+    "product": 
+    {
+      "productName": "phone"
+    },
+
+    "message":
+    {
+      "successMessage": "Success: You have added"
+    }
+    
+  }
+
+  
