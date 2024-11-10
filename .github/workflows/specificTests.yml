@@ -14,7 +14,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Run specific Cypress tests using npx and specifying the test files directly
+      # Run specific Cypress tests using npx and specifying the exact paths
       - name: Cypress run
-        run: npx cypress run --spec "cypress/e2e/TestCheckOut.cy.js,cypress/e2e/testLogin.cy.js"
+        run: |
+          npx cypress run \
+          --spec "cypress/e2e/TestCheckOut.cy.js" \
+          --spec "cypress/e2e/testLogin.cy.js"
+
 
