@@ -16,7 +16,8 @@ export class registerPage
 
     }
     openURL(){
-        cy.visit(Cypress.env('URL')); // URL from config.js  env
+      //  cy.visit(Cypress.env('URL')); // URL from config.js  env
+      cy.visit("https://naveenautomationlabs.com/opencart/index.php?route=account/register");
     }
 
     firstNameField (FName)
